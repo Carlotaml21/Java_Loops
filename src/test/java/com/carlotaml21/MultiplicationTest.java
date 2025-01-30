@@ -1,16 +1,15 @@
 package com.carlotaml21;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class MultiplicationTest {
 
     @Test
     public void testMultiplication (){
-        List<String>expected = List.of(
+        List<String> expected = List.of(
             "5 x 1 = 5",
             "5 x 2 = 10",
             "5 x 3 = 15",
