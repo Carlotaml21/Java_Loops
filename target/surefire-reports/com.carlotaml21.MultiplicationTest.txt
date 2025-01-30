@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.carlotaml21.MultiplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.067 s <<< FAILURE! - in com.carlotaml21.MultiplicationTest
+com.carlotaml21.MultiplicationTest.testMultiplication  Time elapsed: 0.037 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	MultiplicationTable cannot be resolved
+	The method assertEquals(List<String>, List<String>) is undefined for the type MultiplicationTest
+
+	at com.carlotaml21.MultiplicationTest.testMultiplication(MultiplicationTest.java:26)
+
